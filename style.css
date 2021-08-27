@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(159, 224, 203, 0.849);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2p 8px rgba(0, 0, 0,0.2);
+    padding: 0 5%;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo {
+    /*escolher font-family*/
+    color: #000000;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2d2a;
+}
