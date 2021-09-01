@@ -1,7 +1,9 @@
-body{
+body {
     background-color: rgba(53, 61, 59, 0.849);
     margin: 0;
     padding: 0;
+	list-style: none;
+	font-size: 1.2 rem;
 }
 
 ul {
@@ -178,10 +180,19 @@ button:active{
 /*Serviços ou Projetos*/
 
 .services{
-	height:600px;
+	height:1000px;
 	background-color:#ffffff;
+	flex-wrap: wrap;
 	
 
+}
+.box-caixa > div{
+	flex: 1 1 400px;
+	margin-top: 10px;
+}
+.services img{
+	max-width: 100%;
+	display: block;
 }
 .services-text p:nth-child(1){
 	font-family: calibri;
@@ -220,7 +231,10 @@ font-size: 15px;
 	font-size: 14px;
 	outline:none;
 	margin:10px ;
-	
+}
+.outros-proj a{
+	text-decoration: none;
+	color: black;
 }
 
 .caixa-1,.caixa-2,.caixa-3{
@@ -237,6 +251,7 @@ font-size: 15px;
 }
 .box-caixa{
 	display:flex;
+	flex-wrap: wrap;
 	justify-content:space-between;
 }
  
