@@ -28,7 +28,9 @@ nav {
     height: 60px;
     background-color: #FFFFFF;
     box-shadow: 2px 2p 8px rgba(0, 0, 0,0.2);
-    padding: 0 5%;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
 }
 
 nav ul {
@@ -40,12 +42,20 @@ nav ul li a{
     color: #505050;
     font-size: 15px;
     font-weight: 700;
+	transition: 300ms;
+}
+
+nav ul li a:hover{
+	font-size: 20px;
+	font-weight: 800;
 }
 
 .logo {
     /*escolher font-family*/
     color: #000000;
     font-size: 22px;
+	padding-left: 10px;
+	font-weight: bold;
 }
 
 .active{
@@ -54,7 +64,7 @@ nav ul li a{
 }
 
 .model{
-	height: 490px;
+	height: 450px;
 	position:absolute;
 	bottom:20px;
 	left:70%;
@@ -274,7 +284,7 @@ font-size: 15px;
 	height:280px;
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-image: url("../images/project in your mind.png");
+	background-image: url("img/retang2.jpg");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
