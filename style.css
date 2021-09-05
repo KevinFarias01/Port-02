@@ -272,6 +272,7 @@ font-size: 15px;
 .caixa-5 span,
 .caixa-6 span
 {
+	visibility: hidden;
 	width:40px;
 	height:40px;
 	border-radius:50%;
@@ -289,6 +290,7 @@ font-size: 15px;
 .caixa-5 p:nth-child(2),
 .caixa-6 p:nth-child(2)
 {
+	visibility: hidden;
 	color:#FFFFFF;
 	font-family: calibri;
 	font-size: 23px;
@@ -301,6 +303,7 @@ font-size: 15px;
 .caixa-5 p:nth-child(3),
 .caixa-6 p:nth-child(3)
 {
+	visibility: hidden;
 	font-family: calibri;
 	color:#8F8F8F;
 	text-align:center;
@@ -314,6 +317,7 @@ font-size: 15px;
 .caixa-5 button,
 .caixa-6 button{
 	width:100px;
+	font-weight: bold;
 	height:30px;
 	background-color:#FFFFFF;
 	border:none;
