@@ -197,7 +197,7 @@ button:active{
 .services-text p:nth-child(1){
 	font-family: calibri;
 	font-weight:bold;
-	color:#1d1c1c;
+	color:#1c1d1c;
 	font-size:30px;
 	line-height:0px;
 	
@@ -237,7 +237,7 @@ font-size: 15px;
 	color: black;
 }
 
-.caixa-1,.caixa-2,.caixa-3{
+.caixa-1,.caixa-2,.caixa-3, .caixa-4, .caixa-5, .caixa-6{
 	width: 300px;
 	height:320px;
 	background-repeat: no-repeat;
@@ -256,18 +256,22 @@ font-size: 15px;
 }
  
 
-.caixa-1{
-	background-image:url("img/projeto1.png");
+.caixa-1, .caixa-5{
+	background-image:url("img/Barbearia.png");
 }
-.caixa-2{
+.caixa-2, .caixa-4{
 	background-image:url("img/projeto2.png");
 }
-.caixa-3{
+.caixa-3, .caixa-6{
 	background-image: url("img/projeto3.png");
 }
 .caixa-1 span,
 .caixa-2 span,
-.caixa-3 span{
+.caixa-3 span,
+.caixa-4 span,
+.caixa-5 span,
+.caixa-6 span
+{
 	width:40px;
 	height:40px;
 	border-radius:50%;
@@ -280,7 +284,11 @@ font-size: 15px;
 }
 .caixa-1 p:nth-child(2),
 .caixa-2 p:nth-child(2),
-.caixa-3 p:nth-child(2){
+.caixa-3 p:nth-child(2),
+.caixa-4 p:nth-child(2),
+.caixa-5 p:nth-child(2),
+.caixa-6 p:nth-child(2)
+{
 	color:#FFFFFF;
 	font-family: calibri;
 	font-size: 23px;
@@ -288,7 +296,11 @@ font-size: 15px;
 }
 .caixa-1 p:nth-child(3),
 .caixa-2 p:nth-child(3),
-.caixa-3 p:nth-child(3){
+.caixa-3 p:nth-child(3),
+.caixa-4 p:nth-child(3),
+.caixa-5 p:nth-child(3),
+.caixa-6 p:nth-child(3)
+{
 	font-family: calibri;
 	color:#8F8F8F;
 	text-align:center;
@@ -297,7 +309,10 @@ font-size: 15px;
 }
 .caixa-1 button,
 .caixa-2 button,
-.caixa-3 button{
+.caixa-3 button,
+.caixa-4 button,
+.caixa-5 button,
+.caixa-6 button{
 	width:100px;
 	height:30px;
 	background-color:#FFFFFF;
