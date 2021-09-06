@@ -256,14 +256,23 @@ font-size: 15px;
 }
  
 
-.caixa-1, .caixa-5{
+.caixa-1{
 	background-image:url("img/Barbearia.png");
 }
-.caixa-2, .caixa-4{
-	background-image:url("img/projeto2.png");
+.caixa-2{
+	background-image:url("img/Atelie.png");
 }
-.caixa-3, .caixa-6{
-	background-image: url("img/projeto3.png");
+.caixa-3{
+	background-image: url("img/Android-History.png");
+}
+.caixa-4{
+	background-image: url("img/Analise-de-Numeros.png");
+}
+.caixa-5{
+	background-image: url("img/Games.png");
+}
+.caixa-6{
+	background-image: url("img/UX-UI.png");
 }
 .caixa-1 span,
 .caixa-2 span,
