@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
+    <title>Contato</title>
 
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+    <style>
+        textarea{height: 150px;}
+    </style>
 </head>
 <body>
     <section>
@@ -21,8 +25,9 @@
             <ul>
                 <li><a href="#click-home" class="active">Inicio</a></li>
                 <li><a href="#click-sobre">Sobre</a></li>
-                <li><a href="#click-contato">Contato</a></li>
                 <li><a href="#click-projetos">Projetos</a></li>
+                <li><a href="#click-contato">Contato</a></li>
+                
             </ul>
         </nav>
 
@@ -35,22 +40,26 @@
 			<button class="curriculum">Currículo</button>
 		</div>
 	<!--model---------------------->
-	<img alt="model" class="model" src="img/model2.png">
+	<img alt="model" class="model" src="img/model.png">
 
     </section>
 
-    <div class="caixa-de-sobre" id="click-sobre">
-        <!--img sobre-->
-            <img src="img/sobre2.png"/>
-        <!--Texto Sobre-->
-            <div class="texto-sobre">
-            <p>Sobre Mim</p>
-            <p>Desenvolvedor & Designer</p>
-            <p>Olá, meu nome é Kevin Farias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi temporibus tempore et repudiandae consectetur corporis qui corrupti nihil odio nam laboriosam natus rerum dolorem quis, quae perspiciatis deserunt! Dicta, minus?</p>
-            <button>Contato</button>
-            <button>Currículo</button>
-            </div>
-        </div>
+   <!--Formulário--> 
+   <section class="content" >
+       <div class="contato" id="click-contato">
+        <h3>Formulário de Contato</h3>
+        <form class="form" method="POST" action="./email.php">
+            <input class="field" name="name" placeholder="Nome">
+            <input class="field" name="email" placeholder= "E-mail">
+            <textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui.">
+
+            </textarea>
+            <input class="botao-form" type="submit" value="Enviar">
+
+        </form>
+       </div>
+
+   </section>
 
 
     <footer>

@@ -180,10 +180,10 @@ button:active{
 /*Serviços ou Projetos*/
 
 .services{
-	height:1000px;
+	height:980px;
 	background-color:#ffffff;
 	flex-wrap: wrap;
-	
+	background-size: auto;
 
 }
 .box-caixa > div{
@@ -335,34 +335,46 @@ font-size: 15px;
 }
 
 /*Contato*/
+.content{
+	display: flex; justify-content: center;}
+.form{
+	display: flex; flex-direction: column;
+}
 .contato{
-	width: 100%;
-	height:280px;
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-image: url("img/retang2.jpg");
+	padding-top: 50px;
+	width: 100%; max-width: 500px;
+	height:300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin: 0px 0px 20px 0px;
 }
-.contato p{
-	color:#FFFFFF;
-	font-size: 30px;
-	font-family: calibri;
-	font-weight:bold;
-	border-bottom:2px solid #ffffff;
+.field{
+	padding: 10px; margin-bottom: 15px; 
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;	
 }
-.contato button{
-	width:200px;
-	height:40px;
-	background-color: #FFFFFF;
-	border:none;
+.contato h3{
+	font-size: 34px;
+	font-weight: bold;
+	padding-top: 100px;
+}
+.botao-form{
+	width:130px;
+	
+	height:38px;
+	border-radius:10px;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 14px;
 	outline:none;
-	font-size:14px;
-	font-weight:bold;
+	margin:40px ;
+	align-items: center;
 }
+
 
 /*Footer*/
 footer p{
@@ -618,6 +630,7 @@ footer{
 	}
 	
 	.contato{
+		padding-top: 200px;
 	 height: 180px;
 	}
 	.contato p{
